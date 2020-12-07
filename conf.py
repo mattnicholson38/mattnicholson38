@@ -20,11 +20,11 @@ BLOG_AUTHOR = "MJN"  # (translatable)
 BLOG_TITLE = "Survivorship Bias and Mutual Fund Investing"  # (translatable)
 # This is the main URL for your site. It will be used
 # in a prominent link. Don't forget the protocol (http/https)!
-SITE_URL = "https://example.com/"
+SITE_URL = "https://mattnicholson38.github.io/"
 # This is the URL where Nikola's output will be deployed.
 # If not set, defaults to SITE_URL
 # BASE_URL = "https://example.com/"
-BLOG_EMAIL = "mjn@thissite.com"
+BLOG_EMAIL = "mjn@notsetupyet.com"
 BLOG_DESCRIPTION = "This site illustrates how mutual funds use survership bias to launch new funds that look more successful than they are."  # (translatable)
 
 # Nikola is multilingual!

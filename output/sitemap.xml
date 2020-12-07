@@ -6,43 +6,43 @@
     xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
                         http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
  <url>
-  <loc>https://example.com/archive.html</loc>
-  <lastmod>2020-11-25T07:24:00Z</lastmod>
+  <loc>https://mattnicholson38.github.io/archive.html</loc>
+  <lastmod>2020-12-07T02:28:00Z</lastmod>
  </url>
  <url>
-  <loc>https://example.com/categories/</loc>
+  <loc>https://mattnicholson38.github.io/categories/</loc>
   <lastmod>2020-11-09T05:29:00Z</lastmod>
  </url>
  <url>
-  <loc>https://example.com/fin_blind/</loc>
+  <loc>https://mattnicholson38.github.io/fin_blind/</loc>
   <lastmod>2020-11-17T01:24:00Z</lastmod>
  </url>
  <url>
-  <loc>https://example.com/galleries/</loc>
+  <loc>https://mattnicholson38.github.io/galleries/</loc>
   <lastmod>2020-12-05T00:35:00Z</lastmod>
  </url>
  <url>
-  <loc>https://example.com/listings/</loc>
+  <loc>https://mattnicholson38.github.io/listings/</loc>
   <lastmod>2020-11-09T05:29:00Z</lastmod>
  </url>
  <url>
-  <loc>https://example.com/pages/dads-stocks/</loc>
+  <loc>https://mattnicholson38.github.io/pages/dads-stocks/</loc>
   <lastmod>2020-11-13T06:26:00Z</lastmod>
  </url>
  <url>
-  <loc>https://example.com/pages/fang-plus-stocks/</loc>
+  <loc>https://mattnicholson38.github.io/pages/fang-plus-stocks/</loc>
   <lastmod>2020-11-10T05:40:00Z</lastmod>
  </url>
  <url>
-  <loc>https://example.com/pages/growth-funds/</loc>
+  <loc>https://mattnicholson38.github.io/pages/growth-funds/</loc>
   <lastmod>2020-11-25T04:49:00Z</lastmod>
  </url>
  <url>
-  <loc>https://example.com/pages/irrational-funds/</loc>
+  <loc>https://mattnicholson38.github.io/pages/irrational-funds/</loc>
   <lastmod>2020-11-25T07:24:00Z</lastmod>
  </url>
  <url>
-  <loc>https://example.com/posts/</loc>
+  <loc>https://mattnicholson38.github.io/posts/</loc>
   <lastmod>2020-11-17T00:44:00Z</lastmod>
  </url>
 </urlset>
