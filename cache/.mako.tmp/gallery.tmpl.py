@@ -5,7 +5,7 @@ STOP_RENDERING = runtime.STOP_RENDERING
 __M_dict_builtin = dict
 __M_locals_builtin = locals
 _magic_number = 10
-_modified_time = 1607304967.1549044
+_modified_time = 1607305084.003256
 _enable_loop = True
 _template_filename = 'c:/users/mattn/anaconda3/envs/nikola/lib/site-packages/nikola/data/themes/base/templates/gallery.tmpl'
 _template_uri = 'gallery.tmpl'
@@ -36,35 +36,35 @@ def render_body(context,**pageargs):
     __M_caller = context.caller_stack._push_frame()
     try:
         __M_locals = __M_dict_builtin(pageargs=pageargs)
-        crumbs = context.get('crumbs', UNDEFINED)
-        comments = _mako_get_namespace(context, 'comments')
-        post_helper = _mako_get_namespace(context, 'post_helper')
-        folders = context.get('folders', UNDEFINED)
-        galleries_use_thumbnail = context.get('galleries_use_thumbnail', UNDEFINED)
-        thumbnail_size = context.get('thumbnail_size', UNDEFINED)
-        def extra_head():
-            return render_extra_head(context._locals(__M_locals))
-        def sourcelink():
-            return render_sourcelink(context._locals(__M_locals))
-        title = context.get('title', UNDEFINED)
-        _link = context.get('_link', UNDEFINED)
-        len = context.get('len', UNDEFINED)
-        post = context.get('post', UNDEFINED)
-        parent = context.get('parent', UNDEFINED)
-        gallery_path = context.get('gallery_path', UNDEFINED)
-        url_replacer = context.get('url_replacer', UNDEFINED)
-        def extra_js():
-            return render_extra_js(context._locals(__M_locals))
-        ui = _mako_get_namespace(context, 'ui')
-        lang = context.get('lang', UNDEFINED)
-        site_has_comments = context.get('site_has_comments', UNDEFINED)
         photo_array_json = context.get('photo_array_json', UNDEFINED)
-        def content():
-            return render_content(context._locals(__M_locals))
-        enable_comments = context.get('enable_comments', UNDEFINED)
         translations = context.get('translations', UNDEFINED)
         permalink = context.get('permalink', UNDEFINED)
+        ui = _mako_get_namespace(context, 'ui')
+        len = context.get('len', UNDEFINED)
+        post = context.get('post', UNDEFINED)
+        def extra_head():
+            return render_extra_head(context._locals(__M_locals))
+        thumbnail_size = context.get('thumbnail_size', UNDEFINED)
+        comments = _mako_get_namespace(context, 'comments')
+        lang = context.get('lang', UNDEFINED)
+        site_has_comments = context.get('site_has_comments', UNDEFINED)
+        folders = context.get('folders', UNDEFINED)
         photo_array = context.get('photo_array', UNDEFINED)
+        def sourcelink():
+            return render_sourcelink(context._locals(__M_locals))
+        post_helper = _mako_get_namespace(context, 'post_helper')
+        crumbs = context.get('crumbs', UNDEFINED)
+        galleries_use_thumbnail = context.get('galleries_use_thumbnail', UNDEFINED)
+        def content():
+            return render_content(context._locals(__M_locals))
+        gallery_path = context.get('gallery_path', UNDEFINED)
+        enable_comments = context.get('enable_comments', UNDEFINED)
+        def extra_js():
+            return render_extra_js(context._locals(__M_locals))
+        url_replacer = context.get('url_replacer', UNDEFINED)
+        parent = context.get('parent', UNDEFINED)
+        _link = context.get('_link', UNDEFINED)
+        title = context.get('title', UNDEFINED)
         __M_writer = context.writer()
         __M_writer('\n')
         __M_writer('\n')
@@ -109,22 +109,22 @@ def render_sourcelink(context,**pageargs):
 def render_content(context,**pageargs):
     __M_caller = context.caller_stack._push_frame()
     try:
+        photo_array = context.get('photo_array', UNDEFINED)
+        galleries_use_thumbnail = context.get('galleries_use_thumbnail', UNDEFINED)
         crumbs = context.get('crumbs', UNDEFINED)
-        comments = _mako_get_namespace(context, 'comments')
-        url_replacer = context.get('url_replacer', UNDEFINED)
+        permalink = context.get('permalink', UNDEFINED)
         ui = _mako_get_namespace(context, 'ui')
         lang = context.get('lang', UNDEFINED)
+        post = context.get('post', UNDEFINED)
         def content():
             return render_content(context)
-        folders = context.get('folders', UNDEFINED)
-        galleries_use_thumbnail = context.get('galleries_use_thumbnail', UNDEFINED)
-        thumbnail_size = context.get('thumbnail_size', UNDEFINED)
-        site_has_comments = context.get('site_has_comments', UNDEFINED)
         enable_comments = context.get('enable_comments', UNDEFINED)
+        url_replacer = context.get('url_replacer', UNDEFINED)
+        thumbnail_size = context.get('thumbnail_size', UNDEFINED)
+        comments = _mako_get_namespace(context, 'comments')
         title = context.get('title', UNDEFINED)
-        permalink = context.get('permalink', UNDEFINED)
-        photo_array = context.get('photo_array', UNDEFINED)
-        post = context.get('post', UNDEFINED)
+        site_has_comments = context.get('site_has_comments', UNDEFINED)
+        folders = context.get('folders', UNDEFINED)
         __M_writer = context.writer()
         __M_writer('\n    ')
         __M_writer(str(ui.breadcrumbs(crumbs)))
@@ -199,16 +199,16 @@ def render_content(context,**pageargs):
 def render_extra_head(context,**pageargs):
     __M_caller = context.caller_stack._push_frame()
     try:
-        _link = context.get('_link', UNDEFINED)
-        gallery_path = context.get('gallery_path', UNDEFINED)
         post_helper = _mako_get_namespace(context, 'post_helper')
-        lang = context.get('lang', UNDEFINED)
-        def extra_head():
-            return render_extra_head(context)
         translations = context.get('translations', UNDEFINED)
         len = context.get('len', UNDEFINED)
+        gallery_path = context.get('gallery_path', UNDEFINED)
         post = context.get('post', UNDEFINED)
+        def extra_head():
+            return render_extra_head(context)
         parent = context.get('parent', UNDEFINED)
+        _link = context.get('_link', UNDEFINED)
+        lang = context.get('lang', UNDEFINED)
         __M_writer = context.writer()
         __M_writer('\n')
         __M_writer(str(parent.extra_head()))
@@ -236,10 +236,10 @@ def render_extra_head(context,**pageargs):
 def render_extra_js(context,**pageargs):
     __M_caller = context.caller_stack._push_frame()
     try:
-        photo_array_json = context.get('photo_array_json', UNDEFINED)
-        thumbnail_size = context.get('thumbnail_size', UNDEFINED)
         def extra_js():
             return render_extra_js(context)
+        photo_array_json = context.get('photo_array_json', UNDEFINED)
+        thumbnail_size = context.get('thumbnail_size', UNDEFINED)
         __M_writer = context.writer()
         __M_writer('\n<script src="/assets/js/justified-layout.min.js"></script>\n<script src="/assets/js/gallery.min.js"></script>\n<script>\nvar jsonContent = ')
         __M_writer(str(photo_array_json))
