@@ -1248,12 +1248,7 @@ EXTRA_HEAD_DATA = """
 <!-- Font Awesome -->
 <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css"
     integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
-"""
-# Google Analytics or whatever else you use. Added to the bottom of <body>
-# in the default template (base.tmpl).
-# (translatable)
-# BODY_END = ""
-BODY_END = """
+
 <!-- Global site tag (gtag.js) - Google Analytics -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-YC3P0SQPCN"></script>
 <script>
@@ -1264,6 +1259,11 @@ BODY_END = """
   gtag('config', 'G-YC3P0SQPCN');
 </script>
 """
+# Google Analytics or whatever else you use. Added to the bottom of <body>
+# in the default template (base.tmpl).
+# (translatable)
+# BODY_END = ""
+
 
 # The possibility to extract metadata from the filename by using a
 # regular expression.
