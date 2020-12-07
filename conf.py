@@ -1250,6 +1250,7 @@ EXTRA_HEAD_DATA = """
     integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
 
 <!-- Global site tag (gtag.js) - Google Analytics -->
+
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-YC3P0SQPCN"></script>
 <script>
   window.dataLayer = window.dataLayer || [];
