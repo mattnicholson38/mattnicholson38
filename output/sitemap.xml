@@ -7,15 +7,19 @@
                         http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
  <url>
   <loc>https://mattnicholson38.github.io/</loc>
-  <lastmod>2020-12-07T07:19:00Z</lastmod>
+  <lastmod>2020-12-11T05:38:00Z</lastmod>
  </url>
  <url>
   <loc>https://mattnicholson38.github.io/archive.html</loc>
-  <lastmod>2020-12-07T05:16:00Z</lastmod>
+  <lastmod>2020-12-10T03:43:00Z</lastmod>
  </url>
  <url>
   <loc>https://mattnicholson38.github.io/categories/</loc>
   <lastmod>2020-11-09T05:29:00Z</lastmod>
+ </url>
+ <url>
+  <loc>https://mattnicholson38.github.io/fund-incubator-description/</loc>
+  <lastmod>2020-12-10T23:30:00Z</lastmod>
  </url>
  <url>
   <loc>https://mattnicholson38.github.io/galleries/</loc>
@@ -24,6 +28,10 @@
  <url>
   <loc>https://mattnicholson38.github.io/listings/</loc>
   <lastmod>2020-11-09T05:29:00Z</lastmod>
+ </url>
+ <url>
+  <loc>https://mattnicholson38.github.io/machine-learning-description/</loc>
+  <lastmod>2020-12-11T05:38:00Z</lastmod>
  </url>
  <url>
   <loc>https://mattnicholson38.github.io/pages/dads-stocks/</loc>

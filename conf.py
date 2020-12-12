@@ -1219,12 +1219,24 @@ GENERATE_ATOM = False
 # <input type="text" name="q" class="form-control" placeholder="Search">
 # </div>
 # <button type="submit" class="btn btn-primary">
-# 	<span class="glyphicon glyphicon-search"></span>
+#  	<span class="glyphicon glyphicon-search"></span>
 # </button>
 # <input type="hidden" name="sitesearch" value="%s">
 # </form>
 # <!-- End of custom search -->
 # """ % SITE_URL
+
+SEARCH_FORM = """
+ <form method="get" action="https://www.google.com/search" class="form-inline my-2 my-lg-0" role="search">
+ <div class="form-group">
+ <input type="text" name="q" class="form-control mr-sm-2" placeholder="Search">
+ </div>
+ <button type="submit" class="btn btn-secondary my-2 my-sm-0">
+    <i class="fas fa-search"></i></button>
+ </button>
+ <input type="hidden" name="sitesearch" value="%s">
+ </form>
+""" % SITE_URL
 
 # Use content distribution networks for jQuery, twitter-bootstrap css and js,
 # and html5shiv (for older versions of Internet Explorer)
