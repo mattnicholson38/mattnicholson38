@@ -1227,16 +1227,22 @@ GENERATE_ATOM = False
 # """ % SITE_URL
 
 SEARCH_FORM = """
- <form method="get" action="https://www.google.com/search" class="form-inline my-2 my-lg-0" role="search">
- <div class="form-group">
- <input type="text" name="q" class="form-control mr-sm-2" placeholder="Search">
- </div>
+ <script async src="https://cse.google.com/cse.js?cx=44a8a7669c94b7a3f"></script>
+ <div class="gcse-search"></div>
  <button type="submit" class="btn btn-secondary my-2 my-sm-0">
     <i class="fas fa-search"></i></button>
  </button>
  <input type="hidden" name="sitesearch" value="%s">
  </form>
 """ % SITE_URL
+
+# <form method="get" action="https://www.google.com/search" class="form-inline my-2 my-lg-0" role="search">
+# <div class="form-group">
+# <input type="text" name="q" class="form-control mr-sm-2" placeholder="Search">
+# </div>
+
+#<script async src="https://cse.google.com/cse.js?cx=44a8a7669c94b7a3f"></script>
+#<div class="gcse-search"></div>
 
 # Use content distribution networks for jQuery, twitter-bootstrap css and js,
 # and html5shiv (for older versions of Internet Explorer)
