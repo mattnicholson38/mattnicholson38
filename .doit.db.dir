@@ -4,7 +4,7 @@
 'render_taxonomies:output\\archive.html', (62976, 2620)
 'render_taxonomies:output\\rss.xml', (10240, 144)
 'copy_assets:output\\assets\\css\\bootblog.css', (10752, 453)
-'sitemap:output\\sitemapindex.xml', (11264, 256)
+'sitemap:output\\sitemapindex.xml', (11264, 257)
 'copy_assets:output\\assets\\css\\html4css1.css', (11776, 442)
 'copy_assets:output\\assets\\css\\rst.css', (12288, 431)
 'render_posts', (12800, 56)
