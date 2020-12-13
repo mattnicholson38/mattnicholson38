@@ -1,4 +1,4 @@
-Sitemap: https://mattnicholson38.github.io/mattnicholson38/index,html/sitemapindex.xml
+Sitemap: https://mattnicholson38.github.io/mattnicholson38/index.html/sitemapindex.xml
 
 User-Agent: *
 Host: mattnicholson38.github.io
