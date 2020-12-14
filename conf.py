@@ -1236,7 +1236,7 @@ SEARCH_FORM = """
  </button>
  <input type="hidden" name="sitesearch" value="%s">
  </form>
-""" % SITE_URL
+""" % BASE_URL
 
 # <form method="get" action="https://www.google.com/search" class="form-inline my-2 my-lg-0" role="search">
 # <div class="form-group">
