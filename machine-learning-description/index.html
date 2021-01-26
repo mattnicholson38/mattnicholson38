@@ -91,7 +91,30 @@ navbar-dark bg-dark
     <div class="jumbotron p-5">
         <div class="row">
             <div class="col-md-8">
-                <h1 class="display-4">Under Construction....</h1>
+                <h1 class="display-7">Machine Learning and stock selection</h1>
+                <br><p class="lead">Machine Learning algorithms have proliferated widely in recent years,
+                though many of them are not new.  Neural Networks and Fuzzy Logic have been around
+                for at least twenty years.  Advances in computing, data availability, and not the least
+                their success in predicting what people want to buy, has lead to their proliferation.  
+                Several algorithms have been employed here in a simple manner as an interesting means
+                of semi-randomly selecting stocks for the incubators.  The implementation is loosely
+                based on the formulation of Nicolas Carbone in Towards Data Science, 
+                <a href="https://towardsdatascience.com/beat-the-stock-market-with-machine-learning-d9432ea5241e" class="u-url">Find stocks worth buying with Machine Learning</a>. 
+                </p>
+                <p class="lead">Each Machine Learning algorithm required training on a significant set of
+                data in order to "learn" which stocks are most likely to go up in the following quarter.
+                31 quarterly metrics for each stock in the S&amp;P 500 over the 5 years leading up to 2020 
+                were used as the training data.  The classification of "success" for the training set
+                was defined as any stock that appreciated more than 5 or 6 percent during a quarter,
+                with the exact threshold varying for new quarters in order to keep the number of stocks
+                selected reasonable.  The trained algorithms were run on the key metrics for the 
+                quarter preceding the period of performance and the stocks selected were then included
+                in the fund and its performance tracked for that period.  For example, quarterly results
+                for 3/31/20 were processed by the trained algorithms to select stocks to hold during the 
+                3 months from 4/1/20 to 6/30/20, and so on. See the wikipedia descriptions for
+                <a href="https://en.wikipedia.org/wiki/Support-vector_machine" class="u-url">Support Vector Machine</a> and
+                <a href="https://en.wikipedia.org/wiki/Random_forest" class="u-url">Random Forests or random decision forests</a> 
+                for more details.</p>  
             </div>
             <div class="col-md-4">
                 <center>
