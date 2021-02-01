@@ -34,7 +34,7 @@
 '_scan_locs:sitemap', (78336, 977)
 'copy_assets:output\\assets\\xml\\atom.xsl', (26624, 433)
 'copy_assets:output\\assets\\css\\ipython.min.css', (27136, 449)
-'sitemap:output\\sitemap.xml', (137216, 2554)
+'sitemap:output\\sitemap.xml', (137216, 2553)
 'copy_assets:output\\assets\\js\\justified-layout.min.js', (28672, 464)
 'render_listings:output\\listings\\index.html', (55296, 2243)
 'copy_assets:output\\assets\\js\\gallery.js', (31232, 437)
