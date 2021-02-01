@@ -144,6 +144,7 @@ NAVIGATION_LINKS = {
                 ("/pages/growth-funds/", "Growth Funds"),
                 ("/pages/irrational-funds/", "Irrational Funds"),
                 ("/pages/fang-plus-stocks/", "FAANGM Fun"),
+                ("/pages/wallstreetbets/", "Reddit wallstreetbets"),
 #                ("/pages/dads-stocks/", "Growth Stocks"),
 #                ("/pages/academic-publication/", "Publications"),
             ),
