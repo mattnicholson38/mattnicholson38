@@ -56,7 +56,7 @@
 'copy_assets:output\\assets\\js\\jquery.min.js', (48640, 456)
 'copy_assets:output\\assets\\css\\nikola_rst.css', (49152, 446)
 'copy_assets:output\\assets\\css\\bootstrap.css', (71168, 296)
-'render_pages:output\\pages\\fang-plus-stocks\\index.html', (71680, 6281)
+'render_pages:output\\pages\\fang-plus-stocks\\index.html', (71680, 6280)
 'render_sources:output\\pages\\fang-plus-stocks\\index.ipynb', (79360, 267)
 'render_posts:cache\\pages\\fang-plus-stocks.html', (79872, 390)
 'render_posts:cache\\pages\\dads-stocks.html', (81920, 375)
